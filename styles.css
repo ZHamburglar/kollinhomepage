@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "LithosPro";
+    src: url(./LithosPro-Black.otf) format("truetype");
+}
+
+body {
+  background-image: url('./spacejambackground.png');
+  width: 100%;
+  height: 100%;
+}
+
+h1{
+  background: linear-gradient(0deg, #006CA5 0%, #008C84 16%, #23B97D 32%, #CEDE71 48%, #23B97D 64%, #008C84 81%, #006CA5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: 'LithosPro';
+  font-size: 60px;
+  z-index: 0;
+  position: relative;
+  -webkit-text-stroke: 1px white;
+}
+
+
+p {
+  text-align: center;
+  font-family: 'LithosPro';
+  font-size: 24px;
+  background: linear-gradient(0deg, #006CA5 0%, #008C84 16%, #23B97D 32%, #CEDE71 48%, #23B97D 64%, #008C84 81%, #006CA5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px white;
+  overflow: hidden;
+}
+p:after {
+  -webkit-text-stroke: 13px red;
+
+}
+
+#spacebox {
+  overflow: scroll;
+  height: 570px;
+  margin-bottom: 35px;
+
+}
+
+p:first-child {
+  font-size: 36px;
+  background: linear-gradient(0deg, #006CA5 0%, #008C84 16%, #23B97D 32%, #CEDE71 48%, #23B97D 64%, #008C84 81%, #006CA5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
+.developer {
+  color: white;
+  text-align: center;
+  font-family: 'LithosPro';
+  font-size: 22px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.leftball {
+  text-align: right;
+}
+
+.rightball {
+  text-align: left;
+}
+
+.modal-title{
+  text-align: center;
+}
+
+.projectsbutton {
+  position:fixed;
+  width: 100px;
+  height: 100px;
+  top:  48%;
+  right: 0%;}
+
+.githubbutton {
+  position:fixed;
+  top:  20%;
+  right: 0%;
+}
+
+.imdbbutton {
+  position:fixed;
+  top:  80%;
+  right: 0%;
+}
+
+.linkedinbutton {
+  position:fixed;
+  top:  20%;
+  left: 0%;
+}
+.resume {
+  position:fixed;
+  top: 50%;
+  left: 0%;
+}
+
+.mediumbutton {
+  position:fixed;
+  width: 80.3px;
+  top:  80%;
+  left: 0%;
+}
+
+.projectimage{
+}
+
+.projectimg {
+  width: 419px;
+  height: 419px;
+  margin-bottom: 10px;
+}
+
+figcaption.mask {
+  background-color: rgba(54, 55, 50, 0.79);
+  bottom: 10px;
+  color: #fff;
+/*   padding: 25px;
+ */  position: absolute;
+  width: 419px;
+  text-align: center;
+
+  -webkit-transition: all 0.4s ease 0s;
+     -moz-transition: all 0.4s ease 0s;
+      -ms-transition: all 0.4s ease 0s;
+       -o-transition: all 0.4s ease 0s;
+          transition: all 0.4s ease 0s;
+}
+
+figcaption.mask h3 {
+  margin: 0;
+  color: #fff;
+}
+
+.floatup {
+  display: none;
+}
+
+.projectimage:hover .floatup{
+  display: block;
+  font-family: 'LithosPro';
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.modal-content{
+  background-image: url('./stars.gif');
+}
+
+.close {
+  color: white;
+}
+
+.modal-header{
+  font-family: 'LithosPro';
+
+  font-size: 36px;
+  background: linear-gradient(0deg, #BF0F0C 0%, #F18E00 25%, #EFCE32 50%, #F18E00 75%, #BF0F0C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
+.spacejambutton{
+  background: linear-gradient(0deg, #006CA5 0%, #008C84 16%, #23B97D 32%, #CEDE71 48%, #23B97D 64%, #008C84 81%, #006CA5 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: button;
+  -webkit-text-stroke: 1px white;
+}
+
+.spacejambutton:hover {
+  background: linear-gradient(0deg, #BF0F0C 0%, #F18E00 25%, #EFCE32 50%, #F18E00 75%, #BF0F0C 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: button;
+  -webkit-text-stroke: 1px white;
+}
+
+a {
+  color: black;
+}
+
+i {
+  color: black;
+}
+
+div#load_screen{
+	background: #000;
+	opacity: 1;
+	position: fixed;
+    z-index:10;
+	top: 0px;
+	width: 100%;
+	height: 1600px;
+}
+div#load_screen > div#loading{
+	color:#FFF;
+	width:120px;
+	height:24px;
+	margin: 300px auto;
+}
+.spacejamgif {
+    position: fixed;
+    top:  34%;
+    right: 37%;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}

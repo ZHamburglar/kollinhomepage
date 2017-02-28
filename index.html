@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>It's Time to Jam Now</title>
+  <link rel="stylesheet" href="./bootstrap-social.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./slit-slider.css">
+
+  <link rel="stylesheet" href="./animate.css">
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/2e5a652ca0.js"></script>
+  <script src="./scripts.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <audio autoplay>
+      <source src="./spacejamthemesong.mp3" type="audio/mpeg">
+    </audio>
+  
+
+
+  <div id=#themainbody>
+    <h1>Welcome to the Space Jam</h1>
+    <div class="row">
+      <div class="col-md-2">
+        <button class="btn spacejambutton btn-lg linkedinbutton"><a href="https://www.linkedin.com/in/kollinbrandenburg" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></button>
+        <div class="resume">
+          <button class="btn spacejambutton btn-lg resume"><a href="./KollinBrandenburgResume.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-3x" aria-hidden="true"></i></a></button>
+        </div>
+        <button class="btn spacejambutton btn-lg mediumbutton"><a href="https://medium.com/@kollinbrandenburg" target="_blank"><i class="fa fa-medium fa-3x" aria-hidden="true"></i></a></button>
+      </div>
+      <div class="col-md-8">
+        <div id="spacebox">
+          <div id="spacejam"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-1 leftball" align="right">
+          </div>
+          <div class="col-md-10 developer">
+            <i class="em em-basketball"></i>
+            <i class="em em-basketball"></i>
+            <i class="em em-basketball"></i>
+            Kollin Brandenburg: Web Developer
+            <i class="em em-basketball"></i>
+            <i class="em em-basketball"></i>
+            <i class="em em-basketball"></i>
+          </div>
+          <div class="col-md-1 rightball" align="right">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <button class="btn spacejambutton btn-lg githubbutton"><a href="https://github.com/ZHamburglar/" target="_blank"><i class="fa fa-github fa-3x"></i></a></button>
+        <button class="btn spacejambutton btn-lg projectsbutton" data-toggle="modal" data-target="#myModal"><a><i class="fa fa-list-alt fa-3x" aria-hidden="true"></i></a></button>
+        <button class="btn spacejambutton btn-lg imdbbutton"><a href="http://www.imdb.com/title/tt0117705/" target="_blank"><i class="fa fa-imdb fa-3x" aria-hidden="true"></i></a></button>
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Projects</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 projectimage">
+                      <img src="./allfooty.png" class="img-responsive projectimg" title="source: imgur.com">
+                      <figcaption class="mask floatup">
+      									<a href="https://github.com/ZHamburglar/AllFooty" target="_blank"><h3>Soccer statistics app in React with programmitcally generated content based on 5 API calls.</h3></a>
+      								</figcaption>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 projectimage">
+                      <img src="./triviafight.png" class="img-responsive projectimg" title="source: imgur.com">
+                      <figcaption class="mask floatup">
+      									<a href="https://github.com/ZHamburglar/triviafight" target="_blank"><h3>Competitive trivia app in React and Node.js, using Firebaseback end, custom API, and hosted on Heroku.</h3></a>
+      								</figcaption>
+                    </div>
+                    <div class="col-lg-6 col-lg-push-6 col-sm-12 projectimage">
+                      <img src="./reactweather.png" class="img-responsive projectimg" title="source: imgur.com">
+                      <figcaption class="mask floatup">
+      									<a href="https://github.com/ZHamburglar/reactweatherapp" target="_blank"><h3>Weather APP using React and Node.js</h3></a>
+      								</figcaption>
+                    </div>
+                    <div class="col-lg-6 col-lg-pull-6 col-sm-12 projectimage">
+                      <img src="./care4kids.png" class="img-responsive projectimg" title="source: imgur.com">
+                      <figcaption class="mask floatup">
+      									<a href="https://github.com/ZHamburglar/urgentcarefrontend" target="_blank"><h3>Single page healthcare app using Javascript and Node.js hosted on Heroku.</h3></a>
+      								</figcaption>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 projectimage">
+                      <img src="./waterbottle.png" class="img-responsive projectimg" title="source: imgur.com">
+                      <figcaption class="mask floatup">
+      									<a href="https://github.com/ZHamburglar/water-bottle" target="_blank"><h3>H2Know using JavaScript and Node.js; hosted on Heroku.</h3></a>
+      								</figcaption>
+                    </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
