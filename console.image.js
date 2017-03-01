@@ -1,7 +1,4 @@
-/**
- * Dubiously created by Adrian Cooney
- * http://adriancooney.github.io
- */
+
 (function(console) {
 	"use strict";
 
